@@ -15,4 +15,8 @@ abstract class Driver {
         return " " + driverName;
     }
 
+    abstract  void startMoving ();
+    abstract  void stop ();
+    abstract  void refuelTheCar ();
+
 }

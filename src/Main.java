@@ -23,8 +23,9 @@ public class Main {
         System.out.println("Водитель" + driver1.toString() + "\nуправляет автомобилем " + driver1.car + " и будет участвовать в заезде");
         System.out.println("Водитель" + driver2.toString() + "\nуправляет автомобилем " + driver2.car + " и будет участвовать в заезде");
         System.out.println("Водитель" + driver3.toString() + "\nуправляет автомобилем " + driver3.car + " и будет участвовать в заезде");
-
-
+        driver3.startMoving();
+        driver3.stop();
+        driver3.refuelTheCar();
 
         //PrintStream var10000 = System.out;
 

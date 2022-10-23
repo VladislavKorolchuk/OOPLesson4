@@ -7,4 +7,18 @@ public class DriveB<B extends Car> extends Driver {
         this.car = car;
     }
 
+    @Override
+    void startMoving() {
+        System.out.println("начать движение");
+    }
+
+    @Override
+    void stop() {
+        System.out.println("остановиться");
+    }
+
+    @Override
+    void refuelTheCar() {
+        System.out.println("заправить авто");
+    }
 }
